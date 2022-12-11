@@ -1,0 +1,209 @@
+
+.blockWheel {
+    background: linear-gradient(#4567FF, #171A8B);;
+    max-width: 320px;
+    min-width: 50px;
+    max-height: 350px;
+    min-height: 60px;
+    margin-left: 75px;
+    margin-top: -70px;
+    border-radius: 25px;
+    box-shadow: -5px -15px 7px black;
+    border: 1px blue;
+}
+
+.arrow {
+    width: 20px;
+    margin-left: 155px;
+    padding-top: 5px;
+}
+
+.display {
+    display: flex;
+}
+
+.mainBlock {
+    background: linear-gradient(#171A8B, #4567FF);
+    max-width: 99.6%;
+}
+
+.spinWheel {
+    background-color: blue;
+    border: goldenrod 2px solid;
+    width: 500px;
+    text-align: center;
+}
+
+.winnerList {
+    box-shadow: -5px -15px 7px darkblue;
+    margin-left: 75px;
+    text-align: center;
+    color: lightcyan;
+    width: 700px;
+    border-radius: 25px;
+    border: #4567FF solid 14px;
+    background: #4567FF;
+    margin-top: 45px;
+}
+
+.winners {
+    font-size: 2.8em;
+    font-family: 'Peace Sans', sans-serif;
+    width: 100%;
+}
+
+.winner {
+    box-shadow: -1px -2px 1px blue;
+    width: 90%;
+    height: 55px;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    margin-left: 25px;
+    min-height: 15px;
+    padding: 12px 12px 12px 10px;
+    background: linear-gradient(#2524FF, #2A5AFF);
+    border-radius: 10px;
+    display: flex;
+}
+
+.winnerInfo {
+    background-color: red;
+    height: 35px;
+    padding-top: 12px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.infoButton {
+    width: 355px;
+    height: 240px;
+    border: solid green 5px;
+    margin-left: 15px;
+}
+
+.forPrize {
+    width: 373px;
+    height: 100px;
+    margin-bottom: 28px;
+    margin-top: -25px;
+    box-sizing: border-box;
+    text-align: center;
+    border: solid goldenrod 5px;
+    margin-left: 35px;
+    border-radius: 20px;
+    background: linear-gradient(#171A8B, #4567FF);
+}
+
+.forBalance {
+    width: 373px;
+    height: 100px;
+    margin-bottom: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 35px;
+    border: solid goldenrod 5px;
+    border-radius: 20px;
+    background: linear-gradient(#171A8B, #4567FF);
+}
+
+.play {
+    width: 373px;
+    height: 100px;
+    margin-bottom: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    border: solid goldenrod 5px;
+    color: goldenrod;
+    font-family: 'Peace Sans', sans-serif;
+    margin-left: 35px;
+    border-radius: 20px;
+    background-color: darkred;
+}
+
+.playForButton {
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 2.2em;
+    color: goldenrod;
+    margin-left: 12px;
+}
+
+.twoPlayForButton {
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 15px;
+    font-size: 2.2em;
+    color: goldenrod;
+    margin-left: 12px;
+}
+
+.resetForButton {
+    height: 30px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 25px;
+    margin-left: 12px;
+}
+
+.jackpot {
+    color: goldenrod;
+    font-size: 1.2em;
+}
+
+.photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.wrapPhoto {
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.wrapInfo {
+    padding-top: 12px;
+    margin-right: 40px;
+}
+
+.modalWrapper {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(107, 114, 128, 0.5);
+    width: 100%;
+    min-height: 100vh;
+}
+
+.prize {
+    height: 220px;
+    width: 50%;
+    margin-top: 270px;
+    margin-left: 120px;
+    font-size: 1.05em;
+    padding-right: 150px;
+}
+
+.great {
+    border: goldenrod 5px solid;
+    width: 373px;
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 1.8em;
+    font-family: 'Peace Sans', sans-serif;
+    background-color: darkred;
+    border-radius: 20px;
+    color: goldenrod;
+    height: 100px;
+    margin-right: 250px;
+}
+
+
+
